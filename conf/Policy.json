@@ -1,0 +1,84 @@
+{
+    "policy": [
+        {
+            "guid": "bf8166b2-27a8-42b3-8162-57c8095ecc54",
+            "policyDetail": {
+                "folderId": "7492b796760979f12e4b2beafcda3774",
+                "guid": "bf8166b2-27a8-42b3-8162-57c8095ecc54",
+                "id": "7492b796760979f12e4b2beafcda37b8",
+                "name": "Juhu",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "myCoolLib\/coolerFolder\/Juhu.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "7492b796760979f12e4b2beafcda37b8"
+        },
+        {
+            "guid": "7ce3feea-0087-4cd2-a882-f12426e4f3ef",
+            "policyDetail": {
+                "folderId": "7492b796760979f12e4b2beafcda3715",
+                "guid": "7ce3feea-0087-4cd2-a882-f12426e4f3ef",
+                "id": "7492b796760979f12e4b2beafcda375d",
+                "name": "superCoolPolicy",
+                "policyType": "Include",
+                "properties": {
+                    "property": [
+                        {
+                            "key": "hasRouting",
+                            "booleanValue": "false"
+                        },
+                        {
+                            "key": "revision",
+                            "longValue": "1"
+                        },
+                        {
+                            "key": "soap",
+                            "booleanValue": "false"
+                        }
+                    ]
+                }
+            },
+            "resources": {
+                "resourceSet": [
+                    {
+                        "tag": "policy",
+                        "resource": [
+                            {
+                                "type": "policy",
+                                "content": "myCoolLib\/superCoolPolicy.xml"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "id": "7492b796760979f12e4b2beafcda375d"
+        }
+    ]
+}
